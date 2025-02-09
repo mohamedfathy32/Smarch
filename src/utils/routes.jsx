@@ -29,9 +29,10 @@ import AddChalet from "../pages/OwnerDashboard/pages/AddChalet";
 import Datapicker from "../pages/datepicker/Datepicker";
 import SingleChaletManagement from "../pages/OwnerDashboard/pages/SingleChaletManagement";
 import EditChalet from "../pages/OwnerDashboard/pages/EditChalet";
-import SupportUser from "../pages/UserDashboard/pages/supportUser";
+// import SupportUser from "../pages/UserDashboard/pages/SupportUser";
 import UpdatePassword from "../pages/UpdatePassword/UpdatePassword";
 import Subscription from "../pages/OwnerDashboard/pages/Subscription";
+import SupportUser from "../pages/UserDashboard/pages/supportUser";
 
 export const router = createBrowserRouter([
   {
