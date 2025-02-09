@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import TicketModal from "./TicketModal";
 
-export default function SupportUser() {
+export default function SupportUserTemp() {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [tickets, setTickets] = useState([]); // حالة لتخزين التذاكر
     const [loading, setLoading] = useState(true); // حالة لتحميل البيانات
